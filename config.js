@@ -39,9 +39,9 @@ const config = {
     gallery: {
         title: "Nuestros Momentos",
         photos: [
-            { url: "imagenes/Imagen1.JPG", caption: "Chica de anime" },
-            { url: "imagenes/Imagen2.JPG", caption: "Mi profesora favorita" },
-            { url: "imagenes/Imagen3.JPG", caption: "En otro universo" },
+            { url: "imagenes/imagen1.JPG", caption: "Chica de anime" },
+            { url: "imagenes/imagen2.JPG", caption: "Mi profesora favorita" },
+            { url: "imagenes/imagen3.JPG", caption: "En otro universo" },
             { url: "imagenes/video3.mp4", caption: "Maripsosas que se exparsen por tu rostro" },
             { url: "imagenes/video2.mp4", caption: "Mi morena explendida" },
             { url: "imagenes/video1.mp4", caption: "Mi mundo entero, mi novia💖" },
