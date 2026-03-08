@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Madai ❤️</title>
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fuentes -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Quicksand:wght@300;400;600&family=Pacifico&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+
+    <!-- ========================================== -->
+    <!-- VIDEO DE FONDO -->
+    <!-- ========================================== -->
+
+    <div id="image-background">
+
+        <video autoplay muted loop id="bg-video-global">
+            <source src="imagenes/fondo_madai1.mp4" type="video/mp4">
+        </video>
+
+    </div>
+
+
+
+    <!-- ========================================== -->
+    <!-- MÚSICA -->
+    <!-- ========================================== -->
+
+    <audio id="bg-music" loop>
+        <source src="imagenes/axel.mp3" type="audio/mpeg">
+    </audio>
+
+
+
+    <!-- ========================================== -->
+    <!-- CONTENIDO PRINCIPAL -->
+    <!-- ========================================== -->
+
+    <main id="main-content">
+
+
+        <!-- HERO / INICIO -->
+
+        <section id="inicio">
+
+            <div class="hero-overlay">
+
+                <h1 id="hero-title"></h1>
+
+                <p id="hero-subtitle"></p>
+
+                <button
+                    class="btn-main"
+                    onclick="startExperience()"
+                    id="hero-btn">
+                </button>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- DETALLES / ACORDEÓN -->
+
+        <section id="detalles" class="section">
+
+            <h2 class="section-title">
+                Lo que admiro de ti
+            </h2>
+
+            <div id="accordion-container"></div>
+
+        </section>
+
+
+
+        <!-- GALERÍA -->
+
+        <section id="galeria" class="section">
+
+            <h2
+                class="section-title"
+                id="gallery-title">
+            </h2>
+
+            <div
+                class="polaroid-grid"
+                id="gallery-container">
+            </div>
+
+        </section>
+
+
+
+        <!-- SECCIÓN FINAL / CARTA -->
+
+        <section id="final-seccion" class="section">
+
+            <div class="envelope-wrapper">
+
+                <div id="envelope">
+
+                    <div class="back-paper"></div>
+
+                    <div class="flap"></div>
+
+
+                    <div class="letter">
+
+                        <div class="letter-text">
+
+                            <p id="letter-content"></p>
+
+                            <p
+                                id="letter-footer"
+                                class="signature">
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="front-pocket"></div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- BOTONES FINALES -->
+
+            <div class="final-controls">
+
+                <button
+                    id="open-btn"
+                    class="btn-main">
+                    Abrir mi carta 💌
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- ========================================== -->
+    <!-- SCRIPTS -->
+    <!-- ========================================== -->
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+
+    <script src="config.js"></script>
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>
